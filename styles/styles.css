@@ -41,6 +41,13 @@ body {
 	margin: 0 auto;
 }
 
+.container-main {
+	width: 850px;
+	margin: 0 auto
+}
+
+
+
 .row{
 	min-width: 980px;
 	padding: 30px 0 10px 0;
@@ -53,6 +60,10 @@ body {
 
 .row-main{
 	background: #EDF0F5;
+}
+
+.row-alt {
+	background: #3B5998;
 }
 
 header {
@@ -300,4 +311,105 @@ footer span {
 
 footer div {
 	margin: 10px 0 20px 0;
+}
+
+.about-nav-wrapper {
+	display: flex;
+}
+
+.about-nav {
+	padding: 10px;
+	display: flex;
+	flex: 1;
+}
+
+.nav-side {
+	padding: 10px;
+	display: flex;
+	flex: 1;
+}
+
+.fa-facebook-official {
+	background: #3B5998;
+	color: #fff;
+}
+
+.about-nav input[type="search"]{
+	height: 30px;
+	width: 100%;
+}
+
+.nav-logo {
+	flex: 1;
+}
+
+.nav-search {
+	flex: 11;
+}
+
+.fa-user {
+	color: #FEFEFF;
+	margin-right: 10px;
+}
+
+.nav-side a {
+	text-decoration: none;
+	color: #FEFEFF;
+}
+
+.nav-side ul {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
+	width: 100%;
+	padding-top: 10px;
+}
+
+.nav-side ul li {
+	
+}
+
+.cover-photo {
+	width: 100%;
+	height: 313px;
+	margin: 0 auto;
+	background: url(../images/cover.png)no-repeat center center fixed;
+	background-size: cover;
+}
+
+.user-icon {
+	position: relative;
+	top: 120px;
+    left: 20px;
+}
+
+.user-icon img{
+	width: 168px;
+	height: 168px;
+}
+
+.nav-2 ul {
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	list-style-type: none;
+	width: 100%;
+	border: 1px solid #E9EAED;
+}
+
+.nav-2 ul a {
+	text-decoration: none;
+	color: #6B83B4;
+	background: #fff;
+
+}
+
+.nav-2 ul li {
+	padding: 20px;
+	border-right: 1px solid #E9EAED;
+
+}
+
+.nav-2 ul li:first-of-type {
+	border-left: 1px solid #E9EAED;
 }
